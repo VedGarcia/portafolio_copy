@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SamuelScott - Developer Web Frontend</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">SamuelScott.</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Inicio</a>
+        <a href="#about">Sobre Mi</a>
+        <a href="#skills">habilidades</a>
+        <a href="#portfolio">Proyectos</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hola Soy</h3>
+        <h1>Samuel Scott</h1>
+        <h3><span class="multiple-text"></span></h3>
+
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/samuel-scott01/"
+            target="_blank"
+            title="Mi linkedin"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/SamuelDev23"
+            target="_blank"
+            title="Mi Github"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=scottsamuel2005@gmail.com"
+            target="_blank"
+            title="Enviar Email"
+            ><i class="bx bx-envelope"></i
+          ></a>
+        </div>
+        <a
+          href="https://drive.google.com/file/d/1ezsOGtmJ7YnaMpJSRXyXUnze0fpBLaUA/view?usp=sharing"
+          target="_blank"
+          class="btn-cv"
+          >Ver CV</a
+        >
+      </div>
+
+      <div class="home-img">
+        <img src="img/Frame 4.svg" alt="logo"/>
+      </div>
+      
+    </section>
+
+    <!-- About me -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/Frame5.svg" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">Sobre <span>Mi</span></h2>
+        <p>
+          Soy un programador web, en el area front e interfaz de usuario <b>(UI)</b>, 
+          apasionado por la programación, la tecnologia, la musica, el diseño, los videojuegos y el cafe,
+          didactico, y siempre buscando aprender nuevas cosas para poder mejorar profesionalmente, me gusta demostrar mis Habilidades
+          y aprender de otras personas para asi conseguir mejores resultados.
+        </p>
+      </div>
+    </section>
+
+    <!--Skills-->
+    <section class="skills" id="skills">
+      <h2 class="heading"><span>Habilidades</span></h2>
+
+      <h5 class="heading">Lenguajes</h5>
+
+      <div class="primary">
+        <img src="img/Skill/HTML.svg" alt="html5" title="HTML5" />
+        <img src="img/Skill/CSS3.svg" alt="CSS3" title="CSS3"/>
+        <img src="img/Skill/JAVASCRIPT.svg" alt="js" title="Javascript" />
+      </div>
+
+      <h5 class="heading">Frameworks & Librerias</h5>
+
+      <div class="secondary">
+        <img src="img/Skill/ANGULAR.svg" alt="Angular" title="Angular"/>
+        <img src="img/Skill/BOOSTRAP.svg" alt="Bootstrap" title="Bootstrap"/>
+        <img src="img/Skill/TYPESCRIPT.svg" alt="typescript" title="Typescript"/>
+      </div>
+
+      <h5 class="heading">Heramientas</h5>
+      <div class="terciary">
+        <img src="img/Skill/GIT.svg" alt="Git" title="GIT"/>
+        <img src="img/Skill/GITHUB.svg" alt="Github" title="GITHUB"/>
+        <img src="img/Skill/FIGMA.svg" alt="Figma" title="Figma"/>
+      </div>
+    </section>
+
+    <!--Portfolio-->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading"><span>Proyectos</span></h2>
+
+      <h1 class="coming">PROXIMAMENTE</h1>
+    </section>
+
+    <!--Contact-->
+    <section class="contact" id="contact">
+      <h2 class="heading"><span>Contactame</span></h2>
+      <h3>Contactame para cualquier información</h3>
+
+      <form action="#" method="get">
+        <div class="input-box">
+          <input type="text" placeholder="Nombre" required/>
+          <input type="text" placeholder="Apellido" required/>
+        </div>
+        <div class="input-box">
+          <input type="email" placeholder="Correo" required/>
+          <input type="tel" placeholder="Telefono (opcional)" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="29"
+          rows="10"
+          placeholder="Dejame Tu mensaje"
+        ></textarea>
+        <input type="submit" value="Enviar" class="btn-cv" />
+      </form>
+
+      <!--Footer-->
+      <footer class="footer-text">
+        <div class="footer-text">
+          <p>
+            Copyright &copy; 2023 Desarrollado por <b>Samuel Scott</b>. Todos
+            los derechos reservados
+          </p>
+        </div>
+
+        <div class="footer-iconTop">
+          <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+      </footer>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
